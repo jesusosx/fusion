@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<settings>
+  <category label="Hacer Login en Fusion">
+    <setting label="Usuario" type="text"   id="username" default=""/>
+    <setting label="Contraseña" type="text"   id="password" option="hidden"  enable="!eq(-1,)" default=""/>
+  </category>
+  <category label="Control Parental">
+    <setting label="Contraseña" type="text"   id="parental" option="hidden"  enable="!eq(-1,)" default="0000"/>
+  </category>
+</settings>  
